@@ -379,7 +379,7 @@ module tinyQV_peripherals #(parameter CLOCK_MHZ=64) (
         .user_interrupt(user_interrupts[12])
     );
 
-    tqvp_full_example i_user_peri13 (
+    trng_kietdang i_user_peri13 (
         .clk(clk),
         .rst_n(rst_n),
 
